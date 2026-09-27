@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ECommerceShoppingApp1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand colors -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/primary_green_dark</item>
+        <item name="colorSecondary">@color/primary_green_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/primary_green_light</item>
+        <item name="colorOnSecondaryContainer">@color/primary_green_dark</item>
+        <item name="android:colorBackground">@color/bg_grey</item>
+        <item name="colorSurface">@color/white</item>
+
+        <!-- Poppins as the app-wide font -->
+        <item name="android:fontFamily">@font/font_poppins</item>
+        <item name="fontFamily">@font/font_poppins</item>
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="materialButtonStyle">@style/AppButtonStyle</item>
+
+        <!-- Text appearances -->
+        <item name="textAppearanceHeadlineMedium">@style/AppTextAppearance.HeadlineMedium</item>
+        <item name="textAppearanceTitleLarge">@style/AppTextAppearance.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/AppTextAppearance.TitleMedium</item>
+        <item name="textAppearanceBodyLarge">@style/AppTextAppearance.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/AppTextAppearance.BodyMedium</item>
+        <item name="textAppearanceLabelLarge">@style/AppTextAppearance.LabelLarge</item>
+    </style>
+
+    <style name="Theme.ECommerceShoppingApp1" parent="Base.Theme.ECommerceShoppingApp1" />
+
+    <style name="CircleImageStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Every TextView inherits Poppins -->
+    <style name="AppTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/font_poppins</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <!-- Buttons: solid brand green, fully rounded -->
+    <style name="AppButtonStyle" parent="Widget.Material3.Button">
+        <item name="android:fontFamily">@font/font_poppins</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/primary_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- Text appearance scale -->
+    <style name="AppTextAppearance.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTextAppearance.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTextAppearance.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTextAppearance.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="AppTextAppearance.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="AppTextAppearance.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

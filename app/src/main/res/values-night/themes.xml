@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (dark). -->
+    <style name="Base.Theme.ECommerceShoppingApp1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand colors (dark variants) -->
+        <item name="colorPrimary">@color/night_primary</item>
+        <item name="colorOnPrimary">@color/night_on_primary</item>
+        <item name="colorPrimaryContainer">@color/night_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/night_on_primary_container</item>
+        <item name="colorSecondary">@color/night_primary</item>
+        <item name="colorOnSecondary">@color/night_on_primary</item>
+        <item name="colorSecondaryContainer">@color/night_primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/night_on_primary_container</item>
+        <item name="android:colorBackground">@color/night_background</item>
+        <item name="colorSurface">@color/night_surface</item>
+
+        <!-- Poppins as the app-wide font -->
+        <item name="android:fontFamily">@font/font_poppins</item>
+        <item name="fontFamily">@font/font_poppins</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_green">#388E3C</color>
+    <color name="primary_green_dark">#1B5E20</color>
+    <color name="primary_green_light">#E8F5E9</color>
+    <!-- Night theme palette -->
+    <color name="night_primary">#66BB6A</color>
+    <color name="night_on_primary">#0A2E0F</color>
+    <color name="night_primary_container">#1B5E20</color>
+    <color name="night_on_primary_container">#B9F6CA</color>
+    <color name="night_background">#101410</color>
+    <color name="night_surface">#1A1F1A</color>
+    <color name="text_grey">#757575</color>
+    <color name="indicator_inactive">#E0E0E0</color>
+    <color name="bg_onboarding">#FFFFFF</color>
+    <color name="primary_orange">#FF6600</color>
+    <color name="bg_grey">#F8F9FA</color>
+    <color name="soft_grey">#F5F5F5</color>
+    <color name="dark_grey">#424242</color>
+</resources>

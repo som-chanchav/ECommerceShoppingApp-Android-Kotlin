@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.DetailFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_checkoutAddressFragment"
+            app:destination="@id/checkoutAddressFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/checkoutAddressFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.CheckoutAddressFragment"
+        android:label="Delivery Address"
+        tools:layout="@layout/fragment_checkout_address">
+        <action
+            android:id="@+id/action_checkoutAddressFragment_to_checkoutSummaryFragment"
+            app:destination="@id/checkoutSummaryFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkoutSummaryFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.CheckoutSummaryFragment"
+        android:label="Order Summary"
+        tools:layout="@layout/fragment_checkout_summary">
+        <action
+            android:id="@+id/action_checkoutSummaryFragment_to_checkoutPaymentFragment"
+            app:destination="@id/checkoutPaymentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkoutPaymentFragment"
+        android:name="com.example.ecommerceshoppingapp1.ui.CheckoutPaymentFragment"
+        android:label="Payment"
+        tools:layout="@layout/fragment_checkout_payment">
+        <action
+            android:id="@+id/action_checkoutPaymentFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
